@@ -1,0 +1,119 @@
+body {
+  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/10/87/weather-forecast-vector-11181087.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #9cfda1;
+  border: 1px solid rgb(206, 219, 19);
+}
+
+input {
+  padding: 5px;
+  font-size: 14px;
+  display: inline;
+  margin-left: 30%;
+  width: 30%;
+}
+
+#btn {
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: khaki;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  height: 450px;
+  margin-top: 30px;
+  display: flex;
+}
+
+#matter, #map {
+  height: 450px;
+  border-radius: 10px;
+}
+
+#matter {
+  width: 40%;
+  margin-right: 10px;
+}
+
+#map {
+  width: 60%;
+}
+
+h2 {
+  color: rgb(255, 242, 0);
+  margin-left: 50px;
+  font-weight: 90;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 10px;
+  border-radius: 5px; 
+  overflow-wrap: break-word;
+}
+
+iframe {
+  height: 445px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#days {
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(7, 168px);
+  grid-gap: -50px;
+}
+
+#days > div {
+  height: 200px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: rgb(63, 63, 63);
+}
+
+p {
+  text-align: center;
+  color: white;
+  background-color: rgb(184, 184, 184);
+  border-radius: 10px;
+  width: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+.mm, .mm1 {
+  margin: auto;
+  text-align: center;
+  color: rgb(255, 145, 0);
+  font-weight: 600;
+  margin-top: -0px;
+}
+
+.mm1 {
+  color: rgb(255, 145, 0);
+  font-weight: 100;
+  margin-top: -0px;
+}
+
+#days > div:hover {
+  margin-top: 5px;
+}
